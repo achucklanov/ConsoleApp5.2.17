@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
 
-            var array = GetArrayFromConsole();  // !!!!!!!!!
+            var array = GetArrayFromConsole();  // !!!!!!!!!!!!!!!!!!!!!!!!
             ShowArray(array, true);             // !!!!!!!!!!!!!!!!!!!!!!!!
 
         }
