@@ -23,7 +23,7 @@
         static int[] SortArray(int[] result)
         {
 
-            int temp = 0;
+            int temp;
 
             for (int i = 0; i < result.Length; i++)
             {
@@ -39,7 +39,7 @@
             }
             return result;
 
-            static void ShowArray(int[] array, bool IsSort = false)
+            static void ShowArray(int[] array, bool IsSort = true)
             {
                 var temp = array;
 
