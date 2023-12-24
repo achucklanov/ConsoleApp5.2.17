@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            GetArrayFromConsole();
+            
+            var array = GetArrayFromConsole();
+            ShowArray(array, true);
+            
         }
 
         static int[] GetArrayFromConsole()
@@ -39,20 +42,22 @@
             }
             return result;
 
-            static void ShowArray(int[] array, bool IsSort = true)
+        }  
+
+            static void ShowArray(int[] array, bool IsSort = false )
             {
                 var temp = array;
 
-                if(IsSort) 
+                if (IsSort)
                 {
                     temp = SortArray(array);
                 }
 
-                foreach(var item in temp) 
+                foreach (var item in temp)
                 {
                     Console.WriteLine(item);
                 }
             }
-        }
+        
     }
 }
