@@ -20,6 +20,7 @@
                 result[i] = int.Parse(Console.ReadLine());
             }
             return result;
+
         }
 
         static int[] SortArray(int[] result)
