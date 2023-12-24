@@ -19,9 +19,7 @@
                 Console.WriteLine("Введите элемент массива номер {0}", i + 1);
                 result[i] = int.Parse(Console.ReadLine());
             }
-
             return result;
-
         }
 
         static int[] SortArray(int[] result)
@@ -42,7 +40,6 @@
                 }
             }
             return result;
-
         }
 
         static void ShowArray(int[] array, bool IsSort = false)
@@ -59,6 +56,5 @@
                 Console.WriteLine(item);
             }
         }
-
     }
 }
