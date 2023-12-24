@@ -42,10 +42,12 @@
             static void ShowArray(int[] array, bool IsSort = false)
             {
                 var temp = array;
+
                 if(IsSort) 
                 {
                     temp = SortArray(array);
                 }
+
                 foreach(var item in temp) 
                 {
                     Console.WriteLine(item);
